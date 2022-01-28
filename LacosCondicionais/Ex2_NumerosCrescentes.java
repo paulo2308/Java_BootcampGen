@@ -1,4 +1,4 @@
-package application.LacosCondicionais;
+package LacosCondicionais;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class Ex2_NumerosCrescentes {
 		 * 2-	Faça um programa que entre com três números e coloque em ordem crescente
 		 */
 		
-		int n1, n2, n3, menor, meio, maior;
+		int n1, n2, n3, menor=0, meio=0, maior=0;
 		Scanner ler = new Scanner(System.in);
 		System.out.print("Digite n1: ");
 		n1 = ler.nextInt();

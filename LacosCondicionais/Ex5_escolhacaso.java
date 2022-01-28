@@ -42,7 +42,7 @@ public class Ex5_escolhacaso {
 			case 1:
 				System.out.println("cod: 1 -> Picanha 		 --- R$25,00");
 				if(gorjeta==0) {
-					float pagar = 25.0*1.1;
+					float pagar = 25.0f*1.1f;
 					System.out.println("Valor total a pagar: R$ ");
 				}
 				break;
